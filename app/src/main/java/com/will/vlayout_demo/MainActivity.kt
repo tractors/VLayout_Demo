@@ -7,9 +7,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
 import android.widget.ImageView
-import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.alibaba.android.vlayout.DelegateAdapter
@@ -19,7 +17,7 @@ import com.alibaba.android.vlayout.layout.GridLayoutHelper
 import com.alibaba.android.vlayout.layout.LinearLayoutHelper
 import com.bumptech.glide.Glide
 import com.sunfusheng.marqueeview.MarqueeView
-import com.will.vlayout_demo.widget.Marquee
+import com.will.vlayout_demo.widget.MarqueeView2
 import com.youth.banner.Banner
 import com.youth.banner.BannerConfig
 import com.youth.banner.Transformer
@@ -110,8 +108,8 @@ class MainActivity : AppCompatActivity() {
         //跑马灯布局
         val newsAdapter = object : BaseDelegateAdapter(this,LinearLayoutHelper(),R.layout.vlayout_news,1,Config.NEWS_VIEW_TYPE){
             override fun onBindViewHolder(holder: BaseViewHolder, position: Int) {
-                val marqueeView1 : Marquee<String> = holder.getView<Marquee<String>>(R.id.marqueeView1)
-                val marqueeView2 : Marquee<String> = holder.getView<Marquee<String>>(R.id.marqueeView2)
+                val marqueeView1 : MarqueeView2<String> = holder.getView<MarqueeView2<String>>(R.id.marqueeView1)
+                val marqueeView2 : MarqueeView2<String> = holder.getView<MarqueeView2<String>>(R.id.marqueeView2)
 
                 val info1 : MutableList<String> = mutableListOf()
                 info1.add("这个是用来搞笑的，不要在意这写小细节！")

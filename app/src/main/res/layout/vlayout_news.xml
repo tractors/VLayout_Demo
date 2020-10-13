@@ -34,7 +34,7 @@
             android:orientation="horizontal">
 
 
-            <com.will.vlayout_demo.widget.Marquee
+            <com.will.vlayout_demo.widget.MarqueeView2
                 android:id="@+id/marqueeView1"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
@@ -54,7 +54,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <com.will.vlayout_demo.widget.Marquee
+            <com.will.vlayout_demo.widget.MarqueeView2
                 android:id="@+id/marqueeView2"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
