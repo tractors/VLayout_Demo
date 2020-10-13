@@ -20,6 +20,9 @@ import com.sunfusheng.marqueeview.MarqueeView
 import com.sunfusheng.marqueeview.Utils
 import com.will.vlayout_demo.R
 
+/**
+ * 重新定义MarqueeView 使其支持kotlin
+ */
 class MarqueeView2<T> @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null
