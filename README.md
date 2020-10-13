@@ -22,4 +22,4 @@
    
    这里使用的OnItemClickListener 依然是原来依赖库中的 MarqueeView 中的OnItemClickListener  不过你也可以在MarqueeView2改成自己定义的OnItemClickListener事件
    
-   主要文件是MarqueeView2这个文件
+   主要文件是MarqueeView2这个文件。
