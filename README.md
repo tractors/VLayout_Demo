@@ -14,6 +14,9 @@
                 app:mvTextSize="12sp" />
 加入控件
 
+依然要添加依赖库 implementation 'com.sunfusheng:MarqueeView:1.4.1'
+
+自定义文件 MarqueeView2 项目中有
 需要注意的是 
    marqueeView1.setOnItemClickListener(MarqueeView.OnItemClickListener { _, textView -> Toast.makeText(applicationContext, textView.text.toString(), Toast.LENGTH_SHORT).show() })
    
