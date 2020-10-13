@@ -2,16 +2,16 @@
 阿里巴巴的开源空间VLayout 控件的使用实例 并重写了MarqueeView,即MarqueeView2使其支持kotlin
 例如:
 <com.will.vlayout_demo.widget.MarqueeView2
-                android:id="@+id/marqueeView1"
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginLeft="6dp"
-                app:mvAnimDuration="1000"
-                app:mvDirection="bottom_to_top"
-                app:mvInterval="3000"
-                app:mvSingleLine="true"
-                app:mvTextColor="#666"
-                app:mvTextSize="12sp" />
+ android:id="@+id/marqueeView1"
+ android:layout_width="match_parent"
+ android:layout_height="20dp"
+ android:layout_marginLeft="6dp"
+ app:mvAnimDuration="1000"
+ app:mvDirection="bottom_to_top"
+ app:mvInterval="3000"
+ app:mvSingleLine="true"
+ app:mvTextColor="#666"
+ app:mvTextSize="12sp" />
 加入控件
 
 依然要添加依赖库 implementation 'com.sunfusheng:MarqueeView:1.4.1'
